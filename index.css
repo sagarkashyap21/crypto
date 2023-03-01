@@ -343,7 +343,13 @@ justify-content: space-around;
     html{
         font-size: 75%;
     }
-   
+   .one{
+       overflow: hidden;
+       overflow-x: auto;
+   }
+   .one::-webkit-scrollbar{
+       display: none;
+   }
       .e1 {
         margin-left: -9rem;
         margin-top: -19rem;
