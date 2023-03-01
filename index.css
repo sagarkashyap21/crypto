@@ -343,7 +343,7 @@ justify-content: space-around;
     html{
         font-size: 75%;
     }
-    
+   
       .e1 {
         margin-left: -9rem;
         margin-top: -19rem;
@@ -372,6 +372,7 @@ justify-content: space-around;
         margin-left: -1rem;
     }
     .gb {
+        position: absolute;
         margin-top: -8rem;
         margin-left: -5rem;
     }
@@ -442,6 +443,9 @@ justify-content: space-around;
 @media only screen and (max-width: 600px) {
     html{
         font-size: 50%;
+    }
+    .g37 {
+        margin-left: 3rem;
     }
     .logo {
         height: 6rem;
