@@ -4,7 +4,7 @@
     padding: 0;
 }
 html{
-    font-size: 100%;
+    font-size: 62.5%;
 }
 body{
     /* background-color:  #23003C; */
@@ -48,10 +48,12 @@ nav ul li:nth-child(1){
 .search{
     margin-left:9rem ;
 }
+
 .one{
+    width: 100%;
     margin-top: 4rem;
     /* margin-left: 27rem; */
-    margin-left: 4rem;
+    margin-left: 27rem;
     
 }
 .one p:first-child{
@@ -60,6 +62,9 @@ nav ul li:nth-child(1){
 }
 .one p:nth-child(2){
     margin-top: .5rem;
+}
+.red{
+    width: 4rem;
 }
 th{
     /* float: left; */
@@ -85,8 +90,9 @@ table tr{
 
 tr td:nth-child(4){
     /* width: 100rem; */
+    /* border: 2px solid red; */
     position: relative;
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 td:nth-child(3){
     /* text-align: left; */
@@ -129,6 +135,7 @@ td span{
     color: white;
     padding-top: .5rem;
     padding-bottom: .5rem;
+    margin-left: 35rem;
     border: 0;
     border-radius: .4rem;
 
@@ -138,13 +145,14 @@ td span{
 background: #00092A;
 margin-top: 4rem;
 display: flex;
+justify-content: space-around;
 padding: 2rem;
 /* padding: 10rem; */
 }
 
 .two div{
     /* border: 2px solid white; */
-    width: 50%;
+    /* width: 50%; */
 }
 .two div:nth-child(1) img:nth-child(1){
     position: relative;
@@ -216,35 +224,36 @@ ul{
 .g198{
     position: absolute;
     /* border: 2px solid red; */
-    margin-top: -5rem;
-    margin-left: -30rem;
+    margin-top: -8rem;
+    margin-left: -33rem;
 }
 .g20{
     position: absolute;
     /* border: 2px solid red; */
-    margin-left: -20rem;
+    margin-left: -17rem;
     margin-top: 5rem;
 }
 .g350{
-position: relative;    
-margin-top: -10rem;
+position: absolute;    
+margin-top: 15rem;
+margin-left: -45rem;
 }
 .gs{
     /* border: 2px solid red; */
     position: absolute;
-    margin-top: -13rem;
-    margin-left: -15rem;
+    margin-top: 10rem;
+    margin-left: -33rem;
 }
 .ge{
     position: absolute;
-    margin-top: -15rem;
-    margin-left: 4rem; 
+    margin-top: 7rem;
+    margin-left: -4rem; 
     
 }
 .gb{
     position: absolute;
-    margin-top: -5rem;
-    margin-left: -2rem; 
+    margin-top: 25rem;
+    margin-left: -15rem; 
     
 }
 .three{
@@ -302,6 +311,7 @@ margin-top: -10rem;
 footer{
     background-color: #00092A;
     display: flex;
+    /* justify-content: space-evenly; */
     padding-top: 1rem;
     padding-bottom: 3rem;
 }
@@ -313,11 +323,11 @@ footer div{
     padding-left: 5rem;
 }
 .f1 img{
-    width: 20rem;
-    height: 5rem;
+    width: 30rem;
+    height: 8rem;
 }
 .f1 p{
-    width: 30rem;
+    width: 50rem;
 }
 .f2 {
 display: flex;
@@ -339,204 +349,314 @@ justify-content: space-around;
     display: flex;
     justify-content: center;
 }
-@media only screen and (max-width: 1280px) {
-    html{
-        font-size: 75%;
+@media only screen and (max-width: 1280px) and (min-width: 992px)  {
+  body{
+      /* background-color: red; */
+  }
+  .one{
+      margin-left: 22rem;
+  }
+} 
+@media only screen and (max-width: 1024px) and (min-width: 992px)  {
+    body{
+        /* background-color: blue; */
     }
-   .one{
-       overflow: hidden;
-       overflow-x: auto;
-   }
-   .one::-webkit-scrollbar{
-       display: none;
-   }
-      .e1 {
-        margin-left: -9rem;
-        margin-top: -19rem;
-    }
-    .e2 {
-        margin-left: -13rem;
-        margin-top: -16rem;
-    }
-    .g198 {
-        margin-top: -27rem;
-        margin-left: -14rem;
-    }
-    .g20 {
-        margin-left: 5rem;
-        margin-top: -14rem;
-    }
-    .g350 {
-        margin-top: -13rem;
-    }
-    .gs {
-        margin-top: -17rem;
-        margin-left: -26rem;
-    }
-    .ge {
-        margin-top: -22rem;
-        margin-left: -1rem;
-    }
-    .gb {
-        position: absolute;
-        margin-top: -8rem;
-        margin-left: -5rem;
+    .one{
+      margin-left: 12.5rem;
+
     }
 }
+@media only screen and (max-width: 992px) and (min-width: 768px)  {
 
-@media only screen and (max-width: 820px) {
-   html{
-       font-size: 62.5%;
-   }
-   body{
-   }
-   .one{
-       margin-left: 2rem;
-   }
-   .e1 {
-    position: absolute;
+    body{
+        /* background-color: blue; */
+    }
+    .one{
+        margin-left: 7rem;
+    }
+    .two{
+    justify-content: space-between;
+    }
+
+    .f1 p{
+        width: 38rem;
+    }
+}
+@media only screen and (width:820px)  {
+    body{
+    }
+    .one{
+        margin-left: 1.3rem;
+    }
+    /* .two{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .twoone{
+    }
+    .twodiv{
+        margin-top: 14rem;
+    } */
+    .two{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .twodiv{
+        margin-top: 15rem;
+        margin-left: -5rem;
+    
+    }
+    .twodiv h3{
+        font-size: 6rem;
+    }
+    
+    .p {
+        width: 65rem;
+        font-size: 2rem;
+    }.twodiv img {
+        padding: 4.5rem;
+        background-color: #0F1535;
+    }
+    span h4{
+        font-size: 3rem;
+    }.twodiv ul li p {
+        width: 54rem;
+        font-size: 2rem;
+    }
+    .twoone{
+        margin-left: -10rem;
+    }
+    
+
+}
+
+
+@media only screen and (max-width:768px) and (min-width: 600px) {
+body{
+}
+html{
+    font-size: 50%;
+}
+.one{
+    margin-left: 9rem;
+}
+.two{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.twodiv{
+    margin-top: 20rem;
+    margin-left: -5rem;
+
+}
+.twodiv h3{
+    font-size: 7rem;
+}
+.p {
+    width: 65rem;
+    font-size: 2rem;
+}.twodiv img {
+    padding: 4.5rem;
+    background-color: #0F1535;
+}
+span h4{
+    font-size: 3rem;
+}.twodiv ul li p {
+    width: 54rem;
+    font-size: 2rem;
+}
+.twoone{
     margin-left: -10rem;
-    margin-top: -21rem;
+}
+.gb{
+    margin-left: -10rem;
+}
+}
+
+@media only screen and (max-width:600px) and (min-width: 350px)  {
+body{
+    /* background-color: red; */
+}
+
+
+html{
+    font-size: 40%;
+}
+.fa-arrow-down{
+    font-size: 1.5rem;
+}
+.logo{
+    margin-left: 1rem;
+    height: 2.3rem;
+}
+.search{
+    margin-left: 2rem;
+}
+nav{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+nav ul{
+    /* margin-top: -4rem; */
+}
+nav li{
+    /* margin-left: .5rem; */
+}
+.one{
+    margin-left: 2.3rem;
+    overflow: hidden;
+    overflow-x: auto;
+}
+.one::-webkit-scrollbar {
+    display: none;
+  }
+  .map1{
+      margin-left: 22rem;
+  }
+  .e1 {
+    position: absolute;
+    margin-left: -48rem;
+    margin-top: -25rem;
 }
 .e2 {
     position: absolute;
-    margin-left: -13rem;
-    margin-top: -18rem;
+    margin-left: -54rem;
+    margin-top: -21rem;
 }
 .g198 {
-    margin-top: -30rem;
-    margin-left: -15rem;
-}
-
-.g20 {
-    margin-left: 4rem;
-    margin-top: -14rem;
+    position: absolute;
+    margin-top: -37rem;
+    margin-left: -48rem;
 }
 .g350 {
-    margin-top: -18rem;
-    margin-left: -4rem;
+    position: absolute;
+    margin-top: -1rem;
+    margin-left: -59rem;
+}
+.g20 {
+    position: absolute;
+    /* border: 2px solid red; */
+    margin-left: -38rem;
+    margin-top: -16rem;
 }
 .gs {
-    margin-top: -20rem;
-    margin-left: -27rem;
-}
-.gb {
-    margin-top: -9rem;
-    margin-left: -6rem;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: -51rem;
 }
 .ge {
-    margin-top: -24rem;
-    margin-left: 0rem;
+    position: absolute;
+    margin-top: -12rem;
+    margin-left: -8rem;
+}
+.gb {
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: -15rem;
+}
+  
+.two {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.twoone{
+    margin-left: 12rem;
+}
+.twodiv{
+    margin-top: 12rem;
+    padding-left: 4rem;
+}
+.twodiv h3{
+    width: 51rem;
+    font-size: 4.5rem;
+}
+.p{
+    width: 43rem;
+    font-size: 2.1rem;
+}
+.twodiv img {
+    padding: 4.5rem;
+    background-color: #0F1535;
+}
+h4{
+    font-size: 3rem;
+}
+.twodiv ul li span p{
+    font-size: 2rem;
+    width: 44rem;
+}
+.three{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.three1 h4 {
+    font-size: 5rem;
+}
+.fa{
+    font-size: 3rem;
+}
+.three ul li {
+    display: flex;
+    margin-top: 4rem;
+}
+h5{
+    font-size: 3rem;
+}
+.three1 p{
+    width: 37rem;
+    font-size: 2rem;
+}
+.g37{
+    width: 55rem;
+}
+.g48{
+    margin-left: -39rem;
+}
+
+.three2 {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.f1{
+    padding-left: 2rem;
+}
+.f1 img {
+    width: 20rem;
+    height: 8rem;
+}
+.f1 p {
+    width: 23rem;
 }
 }
 
-@media only screen and (max-width: 768px) {
-    html{
-        font-size: 60%;
-    }
-    body{
-    }
-    .one{
-        margin-left: .6rem;
-    }
-    .g20 {
-        margin-left: -4rem;
-        margin-top: -14rem;
-    }
-
+@media only screen and (max-width:400px)  and (min-width: 350px)  {
+body{
+    /* background-color: red; */
+}
+button{
+    position: fixed;
+    margin-left: 25rem;
+}
+.twoone{
+    margin-left: 7rem;
+}
 }
 
-@media only screen and (max-width: 600px) {
-    html{
-        font-size: 50%;
-    }
-    .g37 {
-        margin-left: 3rem;
-    }
-    .logo {
-        height: 6rem;
-        width: 10rem;
-        /* border: 2px solid black; */
-        margin-left: .5rem;
-    }
-    .search{
-        margin-left: 0rem;
-    }
-    nav ul{
-        margin-left: -6rem;
-    }
-    .one{
-        overflow: hidden;
-        overflow-x: auto;
-
-    }
-    .one::-webkit-scrollbar {
-        display: none;
-      }
-      .two{
-          flex-direction: column;
-      }
-      .map1{
-          margin-left: -4rem;
-      }
-      .map2{
-        margin-top: -20rem;
-        margin-left: 12rem;
-      }
-      .two div:nth-child(1) img:nth-child(3) {
-        position: relative;
-        margin-right: -28rem;
-    }
-      .e1 {
-        margin-left: -17rem;
-        margin-top: -22rem;
-    }
-      .e2 {
-        margin-left: -21rem;
-        margin-top: -16rem;
-    }
-    .g198 {
-        margin-top: -31rem;
-        margin-left: -27rem;
-    }
-    .g20 {
-        margin-left: -8rem;
-    }
-    .g350 {
-        margin-top: -14rem;
-        margin-left: -10rem;
-    }
-    .gs {
-        margin-top: -37rem;
-        margin-left: 0rem;
-    }
-    .ge {
-        margin-top: -40rem;
-        margin-left: 25rem;
-    }
-    .gb {
-        margin-top: -18rem;
-        margin-left: 25rem;
-    }
-    .three{
-        flex-direction: column;
-    }
-    .twodiv h3{
-        font-size: 1.4rem;
-    }
-    .three1{
-        margin-left: 10rem;
-    }
-    .f1{
-        margin-left: -2rem;
-    }
-    .f1 img{
-        width: 16rem;
-    }
-    .f1 p{
-        width: 15rem;
-    }
-    body{
-    }
+@media only screen and (width:360px)  {
+.twoone{
+    margin-left: 4rem;
+    padding-left: .9rem;
+}
+.twodiv{
+    padding-left: 1rem;
+}
 }
 
