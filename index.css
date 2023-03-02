@@ -474,6 +474,9 @@ span h4{
 .gb{
     margin-left: -10rem;
 }
+.f1 p{
+    width: 33rem;
+}
 }
 
 @media only screen and (max-width:600px) and (min-width: 350px)  {
