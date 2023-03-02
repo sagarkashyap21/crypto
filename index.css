@@ -641,9 +641,10 @@ h5{
 body{
     /* background-color: red; */
 }
+
 button{
-    position: fixed;
-    margin-left: 25rem;
+    /* position: sticky; */
+    /* margin-left: 25rem; */
 }
 .twoone{
     margin-left: 7rem;
@@ -655,6 +656,7 @@ button{
     margin-left: 4rem;
     padding-left: .9rem;
 }
+
 .twodiv{
     padding-left: 1rem;
 }
