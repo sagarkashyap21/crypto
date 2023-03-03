@@ -6,6 +6,10 @@
 html{
     font-size: 62.5%;
 }
+
+.one p{
+    width: fit-content;
+}
 body{
     /* background-color:  #23003C; */
 background: #000b35;
@@ -135,7 +139,7 @@ td span{
     color: white;
     padding-top: .5rem;
     padding-bottom: .5rem;
-    margin-left: 35rem;
+    /* margin-left: 35rem; */
     border: 0;
     border-radius: .4rem;
 
@@ -354,7 +358,8 @@ justify-content: space-around;
       /* background-color: red; */
   }
   .one{
-      margin-left: 22rem;
+      margin-left: 25rem;
+      width: fit-content;
   }
 } 
 @media only screen and (max-width: 1024px) and (min-width: 992px)  {
@@ -363,6 +368,7 @@ justify-content: space-around;
     }
     .one{
       margin-left: 12.5rem;
+      width: fit-content;
 
     }
 }
@@ -373,6 +379,7 @@ justify-content: space-around;
     }
     .one{
         margin-left: 7rem;
+        width: fit-content;
     }
     .two{
     justify-content: space-between;
@@ -387,6 +394,7 @@ justify-content: space-around;
     }
     .one{
         margin-left: 1.3rem;
+        width: fit-content;
     }
     /* .two{
         flex-direction: column;
@@ -439,8 +447,10 @@ body{
 html{
     font-size: 50%;
 }
+
 .one{
     margin-left: 9rem;
+    width: fit-content;
 }
 .two{
     flex-direction: column;
@@ -477,16 +487,18 @@ span h4{
 .f1 p{
     width: 33rem;
 }
+
 }
 
 @media only screen and (max-width:600px) and (min-width: 350px)  {
 body{
     /* background-color: red; */
 }
-
-
 html{
     font-size: 40%;
+}
+.viewbtn{
+    /* margin-left: 22rem; */
 }
 .fa-arrow-down{
     font-size: 1.5rem;
@@ -512,8 +524,12 @@ nav li{
 }
 .one{
     margin-left: 2.3rem;
+    
     overflow: hidden;
     overflow-x: auto;
+}
+table{
+    width: 56rem;
 }
 .one::-webkit-scrollbar {
     display: none;
@@ -535,33 +551,40 @@ nav li{
     position: absolute;
     margin-top: -37rem;
     margin-left: -48rem;
+    height: 30rem;
+    width: 40rem;
 }
 .g350 {
     position: absolute;
+    height: 30rem;
+    width: 40rem;
     margin-top: -1rem;
     margin-left: -59rem;
 }
 .g20 {
     position: absolute;
+    height: 30rem;
+    width: 37rem;
     /* border: 2px solid red; */
-    margin-left: -38rem;
-    margin-top: -16rem;
+    width: 40rem;
+    margin-left: -35rem;
+    margin-top: -13rem;
 }
 .gs {
     /* border: 2px solid red; */
     position: absolute;
-    margin-top: -4rem;
+    margin-top: -7rem;
     margin-left: -51rem;
 }
 .ge {
     position: absolute;
     margin-top: -12rem;
-    margin-left: -8rem;
+    margin-left: -16rem;
 }
 .gb {
     position: absolute;
-    margin-top: 13rem;
-    margin-left: -15rem;
+    margin-top: 11rem;
+    margin-left: -24rem;
 }
   
 .two {
@@ -639,6 +662,17 @@ h5{
     width: 23rem;
 }
 }
+@media only screen and (width:540px)  {
+.one{
+    width: fit-content;
+    margin-left: 14.3rem;
+}
+
+.twoone{
+    margin-left: 19rem;
+}
+}
+
 
 @media only screen and (max-width:400px)  and (min-width: 350px)  {
 body{
@@ -649,6 +683,15 @@ body{
 .twoone{
     margin-left: 7rem;
 }
+.fa-arrow-down{
+    font-size: 2rem;
+}
+table{
+    width: 52rem;
+}
+.viewbtn{
+    margin-left: 22rem;
+}
 }
 
 @media only screen and (width:360px)  {
@@ -658,8 +701,14 @@ body{
 }
 
 .twodiv{
-    padding-left: 8rem;
+    padding-left: 5rem;
     /* margin-left: 5rem; */
+}
+.g20{
+    width: 37rem;
+}
+.twodiv ul li img{
+    padding: 2.5rem;
 }
 }
 
